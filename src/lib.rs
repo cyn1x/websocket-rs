@@ -74,7 +74,7 @@ fn accept_connection(mut stream: TcpStream) {
     stream
         .write_all(response.as_bytes())
         .expect("Failed to write handshake response");
-    // WebSocket handshake completed!
+    // WebSocket handshake completed
     // TODO: Logging
 
     handle_connection(stream);
