@@ -1,0 +1,8 @@
+[package]
+name = "websocket-rs"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+sha-rs = { git = "https://github.com/cyn1x/sha-rs" }
+base-rs = { git = "https://github.com/cyn1x/base-rs" }
